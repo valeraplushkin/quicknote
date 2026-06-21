@@ -1,0 +1,60 @@
+:root {
+  /* Card surfaces — gradient matches HTML references */
+  --color-card-bg: linear-gradient(180deg, #f7f9fb, #eef2f6);
+  --color-card-bg-onboard: linear-gradient(180deg, #f3f7fb, #e7eef6);
+  --color-input-bg: #fbfcfd;
+  --color-row-bg: #fbfcfd;
+  --color-row-selected-bg: #eef1fb;
+
+  /* Stage backgrounds */
+  --color-bg: linear-gradient(160deg, #cfe0f2, #eaf1f8 55%, #ffffff 100%);
+
+  /* Text */
+  --color-text-primary: #1f2430;
+  --color-text-body: #3a4250;
+  --color-text-secondary: #6b7686;
+  --color-text-muted: #8b95a3;
+  --color-text-time: #93a0b0;
+  --color-text-pin: #9aa4b2;
+
+  /* Accent — indigo */
+  --color-accent: #6366f1;
+  --color-accent-dot: #7c81f2;
+
+  /* Buttons */
+  --color-btn-primary-bg: #14181f;
+  --color-btn-primary-text: #ffffff;
+  --color-btn-secondary-bg: #e3eaf2;
+  --color-btn-secondary-text: #14181f;
+
+  /* Borders */
+  --border-card: 1px solid rgba(243, 220, 247, 0.65);
+  --border-input: 1px solid rgba(148, 163, 184, 0.35);
+  --border-input-focus: 1px solid rgba(99, 102, 241, 0.45);
+  --border-row: 1px solid #c0c1ec;
+  --border-row-selected: 1px solid #c7cdf5;
+
+  /* Radii */
+  --radius-card-lg: 28px;
+  --radius-card: 20px;
+  --radius-popup: 20px;
+  --radius-row: 14px;
+  --radius-btn: 999px;
+
+  /* Shadows */
+  --shadow-ring: 0 0 0 8px rgba(200, 214, 238, 0.55);
+  --shadow-popup: 0 30px 60px -15px rgba(30, 41, 59, 0.25), 0 10px 25px -8px rgba(30, 41, 59, 0.12);
+  --shadow-card: 0 30px 60px -15px rgba(30, 41, 59, 0.18), 0 10px 25px -8px rgba(30, 41, 59, 0.10);
+  --shadow-onboard: 0 40px 80px -20px rgba(30, 41, 80, 0.30), 0 14px 30px -10px rgba(30, 41, 80, 0.18);
+  --shadow-btn-primary: 0 10px 20px -8px rgba(20, 24, 31, 0.50);
+  --shadow-input-focus: inset 0 1px 2px rgba(15, 23, 42, 0.04), 0 0 0 3px rgba(99, 102, 241, 0.12);
+  --shadow-input: inset 0 1px 2px rgba(15, 23, 42, 0.04);
+  --shadow-row-selected: 0 0 0 3px rgba(99, 102, 241, 0.10);
+
+  /* Glass blur */
+  --glass-blur-popup: blur(24px);
+  --glass-blur-card: blur(32px);
+
+  /* Font */
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI Variable", "Segoe UI", "SF Pro Text", Inter, sans-serif;
+}
