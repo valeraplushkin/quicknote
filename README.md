@@ -16,16 +16,3 @@
 - Vite
 - SQLite (sqlx)
 
-## Установка
-Скачай инсталлятор из [Releases](ссылка)
-
-## Разработка
-\`\`\`bash
-npm install
-npm run tauri dev
-\`\`\`
-
-## Сборка
-\`\`\`bash
-npm run tauri build
-\`\`\`
